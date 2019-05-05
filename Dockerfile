@@ -7,4 +7,5 @@ RUN apt-get clean \
     && apt-get autoclean \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
+COPY .vimrc /root/
 WORKDIR /root
