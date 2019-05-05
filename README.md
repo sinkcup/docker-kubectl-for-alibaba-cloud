@@ -1,7 +1,8 @@
-# docker-kubectl-for-alibaba-cloud
-Docker镜像：阿里云 kubectl 和 Vim
+# Docker 镜像：阿里云 kubectl Vim
 
-## k8s多集群管理
+集成 Vim，并且缩进配置为2个空格（和 kubectl edit 保持一致）
+
+## k8s 多集群管理
 
 ```
 cp kubectl_example.sh ~/kubectl_dev.sh
